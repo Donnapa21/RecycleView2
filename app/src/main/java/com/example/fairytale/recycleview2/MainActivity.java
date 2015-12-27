@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         musicList.add(music);
         Music music1 = new Music("Belong With Me", "Talor swift", R.drawable.swift);
         musicList.add(music1);
+        Music music2 = new Music("Belong With Me", "Talor swift", R.drawable.swift);
+        musicList.add(music2);
 
         adapter = new MusicAdapter(musicList);
         recyclerView.setAdapter(adapter);
